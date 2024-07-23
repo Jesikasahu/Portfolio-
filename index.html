@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - CodeCreators</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <head>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="server" href="server.js">
+    <link rel="key" href="server.key">
+    <link rel="key2" href="key.pm">
+</head>
+
+<body>
+
+<!---Navmenu---->
+
+<div class="container">
+    
+
+<nav id="header">
+
+<div class="nav-logo">
+<p class="nav-name">Jesika</p>
+</div>
+
+<div class="nav-menu" id="myNavMenu">
+
+<ul class="nav_menu_list">
+
+<li class="nav_list">
+
+<a href="#home" class="nav-link active-link">Home</a> 
+<div class="circle"></div>
+
+</li>
+
+<li class="nav_list">
+
+<a href="#about" class="nav-link ">About</a>
+ <div class="circle"></div>
+
+</li>
+
+<li class="nav_list">
+
+<a href="#projects" class="nav-link ">Projects</a> 
+<div class="circle"></div>
+
+</li>
+
+<li class="nav_list">
+
+<a href="#contact" class="nav-link ">Contact</a>
+<div class="circle"></div>
+
+</li>
+
+</ul>
+
+</div>
+
+<!---Dark mode-->
+<div class="mode">
+
+    <div class="moon-sun" id="toggle-switch">
+    
+       <i class="fa fa-moon" id="moon"></i>
+    
+    <i class="fa fa-sun" id="sun"></i>
+    
+    </div>
+    
+    </div>
+    
+    <div class="nav-menu-btn">
+    
+    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+    
+    </div>
+
+</nav>
+
+
+
+    <!--main-->
+    <main class="wrapper">
+    <section class="featured-box"id="home">
+        <div class="featured-text">
+            <div class="hello">
+                <p>Hello</p>
+            </div>
+            <div class="featured-name">
+                <span id="typedText"></span>
+            </div>
+            <div class="text-info">
+                <p id="staticText">My name is Jesika! I'm a web developer</p>
+            </div>
+            <div class="text-btn">
+                <a href="contact.html">
+                    <button class="btn hire-btn">Hire me</button>
+                </a>
+                <a href="js.pdf" target="_blank">
+                    <button class="btn">Download CV <i class="fa-regular fa-circle-down"></i></button>
+                </a>
+            </div>
+            <div class="socical_icons">
+                <div class="icon" onclick="document.location='mailto:jesikasahu9@gmail.com'">
+                    <i class="uil uil-message"></i>
+                </div>     
+                <div class="icon" onclick="document.location='https://www.linkedin.com/in/jesika-sahu-61480a277'">
+                    <i class="uil uil-linkedin-alt"></i>
+                </div>
+                <div class="icon" onclick="document.location='https://github.com/Jesikasahu?tab=repositories'">
+                    <i class="uil uil-github-alt"></i>
+                </div>
+            </div>
+    
+        </div>
+        <div class="featured-image">
+            <div class="image">
+                <img src="image.png3.jpeg">
+            
+            </div>
+
+        </section>
+
+        
+        <!--About Box-->
+        
+
+        </div>
+        <section class="section" id="about"> 
+        <div class="top-header">
+            
+            <h1>About me</h1>
+            
+            </div>
+            
+            <div class="row">
+            
+            <div class="col">
+            
+            <div class="about-info">
+            
+            <figure class="about-me">
+            
+            <figcaption>
+            
+            <img src="image.png3.jpeg" alt="" class="profile" />
+            
+            <h2>Aspiring Developer</h2>
+            
+            <p> I am a tech enthusiast and Computer Science student skilled in C++, SQL, and OpenCV.
+                I have a strong background in image processing, web development (HTML, CSS, JavaScript), and database management.
+                I have completed projects like a Parking Spot Detector and a Gesture Volume Control. 
+                I love learning and applying new technologies, 
+                and I am excited to use my skills to contribute to a dynamic and innovative organization.
+            </figure>
+            <a href="contact.html">
+            <button class="about-me-btn">Hire Me</button>
+            </a>
+            </div>
+            </div>
+
+            <div class="skill">
+
+                 <div class="skill-box">
+                    <h2>Skills</h2>
+
+                      <span class="title">HTML</span>
+
+                      <div class="skill-bar html">
+
+                           <span class="skill-per">
+
+                                 <span class="tooltip">80%</span>
+
+                           </span>
+
+
+                       </div>
+
+                    </div>
+
+                    <div class="skill-box">
+
+                         <span class="title">CSS</span>
+
+                               <div class="skill-bar CSS">
+
+                                    <span class="skill-per ">
+
+                                      <span class="tooltip">80%</span>
+
+                                    </span>
+
+                                </div>
+
+              
+            
+            </div>
+
+            <div class="skill-box">
+
+                <span class="title">Python</span>
+
+                      <div class="skill-bar">
+
+                           <span class="skill-per python">
+
+                             <span class="tooltip">50%</span>
+
+                           </span>
+
+                       </div>
+
+     
+   
+   </div>
+           
+
+   <div class="skill-box">
+
+    <span class="title">JavaScript</span>
+
+          <div class="skill-bar">
+
+               <span class="skill-per JavaScript">
+
+                 <span class="tooltip">40%</span>
+
+               </span>
+
+           </div>
+
+
+
+</div>
+
+<div class="skill-box">
+
+    <span class="title">Cplus</span>
+
+          <div class="skill-bar">
+
+               <span class="skill-per Cplus">
+
+                 <span class="tooltip">50%</span>
+
+               </span>
+
+           </div>
+
+
+
+</div>
+
+
+
+
+<div class="skill-box">
+
+    <span class="title">OOPS</span>
+
+          <div class="skill-bar">
+
+               <span class="skill-per OOPS">
+
+                 <span class="tooltip">50%</span>
+
+               </span>
+
+           </div>
+
+
+
+</div>
+            </div>
+            </div>
+            
+            </section>
+
+
+            <!--Project Box-->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                
+                <div class="project-container">
+                    <div class="project-box">
+                    <i class="fa-solid fa-square-parking"></i>
+                        <h3><a href="https://github.com/Jesikasahu/Parkingspotcounter_04" target="_blank">Parking Spot Counter  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </h3>   
+                        
+                           
+                            <label>Developed a system to automatically detect and count available parking spots using image processing techniques.
+                                 This project showcases my ability to integrate computer vision techniques for practical applications. 
+                                
+                           
+                                 <h4>*OpenCV </h4>
+                                 <h4>*Python</h4>
+                                 <h4>*Computer Vision</h4>
+                                
+                                </label>
+                           
+                    </div>
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="project-box">
+                        <i class="fa-solid fa-volume-high"></i>
+                        <h3><a href="https://github.com/Jesikasahu/GestureVolumeControl" target="_blank">Gesture Volume Control <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+                        <label>Gesture volume control using OpenCV and machine learning involves detecting hand gestures via
+                             a webcam to adjust the system's volume level, leveraging computer vision techniques and trained models to recognize and interpret the gestures.
+                            
+                             <h4>*OpenCV </h4>
+                                 <h4>*Python</h4>
+                                 <h4>*Computer Vision</h4>
+                            
+                            </label>
+                    </div>
+                    
+                    <div class="project-box">
+                        <img src="image.png.jpeg" alt="" class="parking" />
+                        <i class="uil uil-users-alt"></i>
+                        <h3><a href="https://github.com/Jesikasahu/Virtual-Canvas" target="_blank">Virtual Canvas <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h3>
+                        <label>Built an interactive virtual canvas allowing users to draw using mouse events captured and processed by OpenCV.
+                             This project highlights my expertise in developing creative and interactive applications using computer vision.
+                             
+
+                             <h4>*OpenCV </h4>
+                                 <h4>*Python</h4>
+                                
+                                
+                            
+                            </label>
+                    </div>
+
+                    <div class="project-box">
+                        <img src="image.png.jpeg" alt="" class="parking" />
+                        
+                        <i class="fa-solid fa-user-tie"></i>
+                        <h3><a href="https://github.com/Jesikasahu/Virtual-Canvas" target="_blank">Portfolio</a>  <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                        <label> Welcome to my personal portfolio, a curated collection of my work that highlights my skills,
+                            creativity, and dedication. Explore projects that showcase my expertise in design, development, and
+                            innovation
+
+                             <h4>*Html</h4>
+                                 <h4>*CSS</h4>
+                                 <h4>*JavaScript</h4>
+                                
+                                
+                            
+                            </label>
+                    </div>
+                </div>
+            </section>
+            
+                
+
+
+                
+                    
+                    
+            
+
+
+               <!--conact box-->
+               <section class="section" id="contact">
+               <div class="contact">
+                <h1>Contact</h1>
+                <p>Please contact me directly at <u>jesikasahu9@gmail.com</u>  or through this form.  </p>
+                <p>Phone: <i class="fa-solid fa-phone"></i> <i class="fa-solid fa-arrow-right"></i> +916263261343 </p>
+                <form target="_blank" action="https://formsubmit.co/jesikasahu9@gmail.com" method="POST">
+                    <link rel="stylesheet" href="style.css">
+                  <div class="form-group">
+                    <div class="form-row">
+                     <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                      </div>
+
+                     
+                      <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-dark btn-block">Send <i class="fa-regular fa-paper-plane"></i></button>
+                </form>
+            </div>
+               
+            <!---Footer---->
+
+<footer>
+
+    <div class="middle-footer">
+    
+    <ul class="footer-menu">
+    
+    <li class="footer_menu_list">
+    
+    <a href="#home">Home</a>
+    
+    </li>
+    
+    <li class="footer_menu_list">
+    
+    <a href="#about">About</a>
+    
+    </li>
+    
+    <li class="footer_menu_list">
+    
+    <a href="#projects">Projects</a>
+    
+    </li>
+    
+    <li class="footer_menu_list"> 
+        <a href="#contact">Contact</a>
+    
+    </li>
+    
+    </ul>
+    
+    </div>
+
+    <div class="footer-social-icons">
+
+        <div class="icon"><i class="uil uil-message"></i></div> 
+        <div class="icon"><i class="fa-brands fa-linkedin-in icon"></i></div>
+        
+        
+        <div class="icon"><i class="uil uil-github-alt"></i></div>
+        
+        </div>
+        
+        <div class="bottom-footer">
+        
+        <p><i class="fa-regular fa-copyright"></i> 2025 Jesika Sahu. <a href="#home" style="text-decoration: none;"></a> All rights reserved.</p>
+        
+        </div>
+
+
+    </footer>
+    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>   
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+
+    <script src="script.js"></script> 
+            
+            </div>
+            
+            </body>
+            
+            </html>
